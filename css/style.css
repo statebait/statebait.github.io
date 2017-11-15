@@ -1,0 +1,9 @@
+body {
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+main {
+  padding-top: 1000px;
+}
