@@ -1,23 +1,11 @@
 {
-  "name": "mysite",
+  "name": "shadxx7.github.io",
   "version": "0.0.1",
   "description": "Personal Website",
   "main": "index.js",
   "scripts": {
-    "test": "start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shadxx7/mysite.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mohamed Shadab",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shadxx7/mysite/issues"
-  },
-  "homepage": "https://github.com/shadxx7/mysite#readme",
-  "dependencies": {
-    "semantic-ui-css": "^2.3.0",
-    "semantic-ui-react": "^0.78.3"
-  }
+  "license": "MIT"
 }

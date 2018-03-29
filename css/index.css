@@ -1,9 +1,13 @@
 body {
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;
+  font-family: "lato", sans-serif;
+  background-color: rgb(235, 235, 235);
 }
 
-main {
-  padding-top: 1000px;
+div img {
+  -webkit-box-shadow: 10px 16px 15px -4px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 10px 16px 15px -4px rgba(0, 0, 0, 0.45);
+  box-shadow: 10px 16px 15px -4px rgba(0, 0, 0, 0.45);
 }
+
+/* Great Gradient Flow */
+/* #32cfa7, #ffa400, #8300ff, #4f00ff */
