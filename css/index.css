@@ -9,5 +9,11 @@ div img {
   box-shadow: 10px 16px 15px -4px rgba(0, 0, 0, 0.45);
 }
 
+@media only screen and (max-width: 600px) {
+  #name {
+    font-size: 35px;
+  }
+}
+
 /* Great Gradient Flow */
 /* #32cfa7, #ffa400, #8300ff, #4f00ff */

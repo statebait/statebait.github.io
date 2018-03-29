@@ -61,4 +61,6 @@ typings/
 .next
 
 # editorconfig
-/.vscode
+.vscode
+
+/images/mainpic_trial.png
