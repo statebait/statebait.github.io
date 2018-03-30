@@ -1,17 +1,21 @@
 //Function for displaying the game
 $(function() {
   $("#main_image").click(function() {
-    if ($(window).width() >= 992) {
-      $("#help_text, #main_image, #main_text, #main_icon").hide();
-      $("#counter_div, #snake_div, #press, #_back, #help_text2").show();
+    if ($(window).width() >= 1100) {
+      $(
+        "#footer_text_main, #main_image, #main_text, #main_icon, #footer_text_mobile"
+      ).hide();
+      $("#counter_div, #snake_div, #press, #_back").show();
       $("body").addClass("firegrad");
     }
   });
 });
 
 function displayBack() {
-  $("#main_image, #main_text, #main_icon, #help_text").show();
-  $("#counter_div, #_back, #press, #snake_div, #help_text2").hide();
+  $(
+    "#main_image, #main_text, #main_icon, #footer_text_main, #footer_text_mobile"
+  ).show();
+  $("#counter_div, #_back, #press, #snake_div").hide();
   $("body").removeClass("firegrad");
 }
 
