@@ -1,17 +1,99 @@
+@font-face {
+  font-family: press-start;
+  src: url(/assets/fonts/press-start.ttf);
+}
+
 body {
   font-family: "lato", sans-serif;
   background-color: rgb(235, 235, 235);
 }
 
-div img {
+#main_image img {
   -webkit-box-shadow: 10px 16px 15px -4px rgba(0, 0, 0, 0.45);
   -moz-box-shadow: 10px 16px 15px -4px rgba(0, 0, 0, 0.45);
   box-shadow: 10px 16px 15px -4px rgba(0, 0, 0, 0.45);
 }
 
+#snake_div {
+  margin-top: 30px;
+  display: none;
+}
+
+#_back {
+  font-family: press-start;
+  display: none;
+}
+
+#press {
+  margin-top: 20px;
+  font-family: press-start;
+  display: none;
+}
+
+#help_text {
+  margin-top: 180px;
+}
+
+#help_text2 {
+  display: none;
+  margin-top: 40px;
+}
+
+#help_text3 {
+  margin-top: 100px;
+}
+
+#counter_div {
+  margin-top: 30px;
+  display: none;
+  font-family: press-start;
+}
+
 @media only screen and (max-width: 600px) {
   #name {
     font-size: 35px;
+  }
+}
+
+.firegrad {
+  background: linear-gradient(44deg, #32cfa7, #6200ff, #ffa400, #8300ff);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 20s ease infinite;
+  -moz-animation: AnimationName 20s ease infinite;
+  animation: AnimationName 20s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 

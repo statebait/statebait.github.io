@@ -6,6 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
+
   <!-- Compiled and minified Materilize CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
@@ -24,11 +27,34 @@
 
 <body>
 
-  <div class="center animated zoomInUp">
-    <img src="images/mainpic.png" class="circle" style="width: 200px; height: 200px; margin-top: 100px;">
+  <!-- Score -->
+  <div class="animated zoomIn center" id="counter_div">
+    <h5 id="counter">SCORE: </h5>
   </div>
 
-  <div class="animated zoomIn center" style="margin-top: 40px; color: #4e4e4e;">
+  <!-- Canvas for the snake game -->
+  <div class="center animated slideInDown" id="snake_div">
+    <canvas class="z-depth-5" id="gc" width="400" height="400"></canvas>
+  </div>
+
+  <!-- Press Info -->
+  <div class="animated slideInRight center" id="press">
+    <h5>PRESS
+      <img style="margin-top: 10px; width: 100px; height: 65px;" src="assets/images/arrow-keys.png"> TO START</h5>
+  </div>
+
+  <!-- Back -->
+  <div class="animated slideInLeft container center" style="padding-top: 20px;" id="_back">
+    <h6 onclick="displayBack()">CLICK HERE TO GO BACK</h6>
+  </div>
+
+  <!-- Main Picture (Also trigger for easter egg) -->
+  <div class="center animated zoomInUp" id="main_image">
+    <img src="assets/images/mainpic.png" class="circle" style="width: 200px; height: 200px; margin-top: 100px;">
+  </div>
+
+  <!-- Name and info -->
+  <div id="main_text" class="animated zoomIn center" style="margin-top: 40px; color: #4e4e4e;">
     <h3 id="name">Mohamed Shadab</h3>
     <span style="font-size: 20px;">
       <i class="fas fa-heart"></i>
@@ -36,19 +62,39 @@
     </span>
   </div>
 
-  <div class="container center" style="margin-top: 15px; font-size: 35px;">
 
+  <!-- Icons -->
+  <div id="main_icon" class="container center" style="margin-top: 15px; font-size: 35px;">
     <a href="https://github.com/shadxx7" target="_blank">
       <i class="fab fa-github black-text animated slideInLeft"></i>
     </a>
-
     <span style="color: #4e4e4e;">|</span>
-
     <a href="https://twitter.com/ShadXx7" target="_blank">
       <i class="fab fa-twitter animated slideInRight"></i>
     </a>
-
   </div>
+
+  <!-- Footer for game -->
+  <footer class="center" id="help_text2">
+    <p style="font-size: 12px; color: #000000;">MIT License | Copyright (c) 2018 Mohamed Shadab</p>
+  </footer>
+
+  <!-- Footer for main page for small screens -->
+  <footer class="center hide-on-large-only" id="help_text3">
+    <p style="font-size: 12px; color: #4e4e4e;">MIT License | Copyright (c) 2018 Mohamed Shadab</p>
+  </footer>
+
+  <!-- Footer for main page -->
+  <footer class="center hide-on-med-and-down" id="help_text">
+    <p style="font-size: 12px; color: #4e4e4e;">Click the image | MIT License | Copyright (c) 2018 Mohamed Shadab</p>
+  </footer>
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+
+  <!-- Local JS -->
+  <script src="js/index.js"></script>
 
 </body>
 

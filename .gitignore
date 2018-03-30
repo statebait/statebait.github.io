@@ -63,4 +63,5 @@ typings/
 # editorconfig
 .vscode
 
-/images/mainpic_trial.png
+# localassets
+/local
