@@ -11,6 +11,7 @@ $(function() {
   });
 });
 
+//Back to Main page function
 function displayBack() {
   $(
     "#main_image, #main_text, #main_icon, #footer_text_main, #footer_text_mobile"

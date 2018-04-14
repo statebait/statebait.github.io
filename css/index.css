@@ -3,15 +3,30 @@
   src: url(/assets/fonts/press-start.ttf);
 }
 
+@font-face {
+  font-family: lato;
+  src: url(/assets/fonts/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: lato-italic;
+  src: url(/assets/fonts/Lato-BlackItalic.ttf);
+}
+
 body {
   font-family: "lato", sans-serif;
   background-color: rgb(235, 235, 235);
 }
 
-#main_image img {
+#main_image {
   -webkit-box-shadow: 10px 16px 15px -4px rgba(0, 0, 0, 0.45);
   -moz-box-shadow: 10px 16px 15px -4px rgba(0, 0, 0, 0.45);
   box-shadow: 10px 16px 15px -4px rgba(0, 0, 0, 0.45);
+}
+
+#main_text {
+  margin-top: 40px;
+  color: #4e4e4e;
 }
 
 #snake_div {
