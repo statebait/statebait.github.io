@@ -1,3 +1,16 @@
+//Hover for the main image
+function hover(element) {
+  if ($(window).width() >= 1100) {
+    element.setAttribute("src", "assets/images/mainpic2.png");
+  }
+}
+
+function unhover(element) {
+  if ($(window).width() >= 1100) {
+    element.setAttribute("src", "assets/images/mainpic.png");
+  }
+}
+
 //Function for displaying the game
 $(function() {
   $("#main_image").click(function() {
