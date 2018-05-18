@@ -80,11 +80,6 @@ body {
   font-family: press-start;
 }
 
-.icon-hover:hover {
-  width: 40px;
-  height: 40px;
-}
-
 @media only screen and (max-width: 600px) {
   #name {
     font-size: 35px;
@@ -92,6 +87,16 @@ body {
   #main_image:hover {
     cursor: default;
   }
+}
+
+.icons {
+  width: 32px;
+  height: 32px;
+}
+
+.icons:hover {
+  width: 40px;
+  height: 40px;
 }
 
 .firegrad {
