@@ -25,9 +25,6 @@ body {
   width: 200px;
   height: 200px;
   margin-top: 100px;
-  /* -webkit-box-shadow: 10px 16px 15px -4px rgba(0, 0, 0, 0.45);
-  -moz-box-shadow: 10px 16px 15px -4px rgba(0, 0, 0, 0.45);
-  box-shadow: 10px 16px 15px -4px rgba(0, 0, 0, 0.45); */
 }
 
 #main_image:hover {

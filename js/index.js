@@ -33,11 +33,12 @@ function displayBack() {
   $("body").removeClass("firegrad");
 }
 
+//The Snake Game
+
 //The Score tracker
 var counter = 0;
 $("#counter").html(`SCORE: ${counter}`);
 
-//The Snake Game
 window.onload = function() {
   canv = document.getElementById("gc");
   ctx = canv.getContext("2d");
