@@ -21,7 +21,11 @@
   <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
 
   <!-- Compiled and minified Materilize CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
 
   <!-- Animate CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -51,14 +55,9 @@
       <img style="margin-top: 10px; width: 60px; height: 40px;" src="assets/images/arrow-keys.png"> TO START</h6>
   </div>
 
-  <!-- Back -->
-  <div class="animated slideInLeft center" id="_back">
-    <h6 onclick="displayBack()">CLICK HERE TO GO BACK</h6>
-  </div>
-
   <!-- Main Picture (Also trigger for easter egg) -->
   <div class="center animated zoomInUp">
-    <img id="main_image" src="assets/images/mainpic.png" class="circle z-depth-5" onmouseover="hover(this);" onmouseout="unhover(this);">
+    <img id="main_image" src="assets/images/mainpic.png" class="circle z-depth-5">
   </div>
 
   <!-- Name and info -->
@@ -71,26 +70,25 @@
   </div>
 
   <!-- Icons -->
-  <div id="main_icon" class="container center" style="margin-top: 15px; font-size: 35px;">
-
-    <a href="https://github.com/shadxx7" target="_blank">
-      <img src="./assets/images/github-logo.svg" class="icons animated slideInLeft">
+  <div id="main_icons" class="container center animated zoomIn">
+    <a href="https://github.com/shadxx7" target="_blank" data-tooltip="Github" data-position="bottom" class="tooltipped">
+      <i class="fab fa-github"></i>
     </a>
-
-    <span style="color: #4e4e4e;">|</span>
-    <a href="./resume.html"><img src="./assets/images/list.svg" class="icons animated slideInUp"></a>
-
-
-    <span style="color: #4e4e4e;">|</span>
-    <a href="https://twitter.com/ShadXx7" target="_blank">
-      <img src="./assets/images/twitter-logo.svg" class="icons animated slideInRight">
+    <a href="https://twitter.com/ShadXx7" target="_blank" data-tooltip="Twitter" data-position="bottom" class="tooltipped">
+      <i class="fab fa-twitter"></i>
     </a>
-
+    <a href="https://www.linkedin.com/in/mohamed-shadab-46b513125" target="_blank" data-tooltip="LinkedIn" data-position="bottom"
+      class="tooltipped">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="./resume.html" data-tooltip="Resume" data-position="bottom" class="tooltipped">
+      <i class="fas fa-file-alt"></i>
+    </a>
   </div>
 
   <!-- Footer for main page -->
   <footer class="hide-on-med-and-down" id="footer_text_main">
-    <p>Click the image |
+    <p><span class="snake-launch">Snake Game</span> |
       <a target="_blank" href="https://github.com/shadxx7/shadxx7.github.io/blob/master/LICENSE.md">MIT License
       </a> | Copyright (c) 2018 Mohamed Shadab</p>
   </footer>
@@ -102,9 +100,19 @@
       </a> | Copyright (c) 2018 Mohamed Shadab</p>
   </footer>
 
+  <!-- Footer for snake game -->
+  <footer id="footer_text_snake">
+    <p><span class="snake-close" onclick="displayBack()">Home</span> |
+      <a target="_blank" href="https://github.com/shadxx7/shadxx7.github.io/blob/master/LICENSE.md">MIT License
+      </a> | Copyright (c) 2018 Mohamed Shadab</p>
+  </footer>
+
   <!-- jquery -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
+
+  <!-- Materialise JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 
   <!-- Local JS -->
   <script src="js/index.js"></script>

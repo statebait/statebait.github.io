@@ -1,24 +1,16 @@
-//Hover for the main image
-function hover(element) {
-  if ($(window).width() >= 1100) {
-    element.setAttribute("src", "assets/images/mainpic2.png");
-  }
-}
-
-function unhover(element) {
-  if ($(window).width() >= 1100) {
-    element.setAttribute("src", "assets/images/mainpic.png");
-  }
-}
+//Tooltip for icons
+$(document).ready(function() {
+  $(".tooltipped").tooltip();
+});
 
 //Function for displaying the game
 $(function() {
-  $("#main_image").click(function() {
-    if ($(window).width() >= 1100) {
+  $(".snake-launch").click(function() {
+    if ($(window).width() >= 1100 && $(window).height() >= 650) {
       $(
-        "#footer_text_main, #main_image, #main_text, #main_icon, #footer_text_mobile"
+        "#footer_text_main, #main_image, #main_text, #main_icons, #footer_text_mobile"
       ).hide();
-      $("#counter_div, #snake_div, #press, #_back").show();
+      $("#counter_div, #snake_div, #press, #footer_text_snake").show();
       $("body").addClass("firegrad");
     }
   });
@@ -27,9 +19,9 @@ $(function() {
 //Back to Main page function
 function displayBack() {
   $(
-    "#main_image, #main_text, #main_icon, #footer_text_main, #footer_text_mobile"
+    "#main_image, #main_text, #main_icons, #footer_text_main, #footer_text_mobile"
   ).show();
-  $("#counter_div, #_back, #press, #snake_div").hide();
+  $("#counter_div, #press, #snake_div, #footer_text_snake").hide();
   $("body").removeClass("firegrad");
 }
 

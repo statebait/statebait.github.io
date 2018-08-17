@@ -5,31 +5,55 @@
   src: url(/assets/fonts/Lato-Black.ttf);
 }
 
+@font-face {
+  font-family: lato-light;
+  src: url(/assets/fonts/Lato-Light.ttf);
+}
+
 body {
   background-color: #001e4b;
-  background-image: none;
+  background-image: url("../assets/images/resume-bg.svg");
   font-family: "lato", sans-serif;
 }
 
-.resume-footer {
-  color: white !important;
+p {
+  font-family: "lato-light", sans-serif;
+  font-size: 16px;
 }
 
 #resume {
   display: flex !important;
   margin: 0 auto;
-  width: 1200px;
+  width: 1000px;
   height: 550px;
-  background-color: #0b182b;
+  background-color: #112544;
   background-image: none;
-  color: white;
-  margin-top: 30px !important;
+  color: rgb(255, 255, 255);
+  margin-top: 50px !important;
   border-radius: 20px;
+}
+
+#title {
+  text-align: center;
+  color: white;
+  height: 70px !important;
+}
+
+#title-mobile {
+  text-align: center;
+  color: white;
+  height: 70px !important;
+  display: none;
+}
+
+.resume-right-parent {
+  display: flex;
+  flex-direction: column;
 }
 
 .resume-right {
   display: flex;
-  width: 900px;
+  width: 750px;
   height: 550px;
   overflow: hidden;
 }
@@ -37,8 +61,8 @@ body {
 .resume-right-child {
   margin-right: -17px;
   overflow-y: auto;
-  padding: 50px;
-  color: white;
+  padding: 40px;
+  padding-top: 20px;
 }
 
 .progress-resume {
@@ -51,39 +75,43 @@ body {
 }
 
 .resume-left {
-  padding: 20px;
+  background-color: #172f53;
   display: flex;
-  width: 300px;
+  width: 250px;
   height: 550px;
   flex-direction: column;
-  align-content: center;
+  border-right: 20px;
+}
+
+.resume-left-child {
+  margin-top: 30px;
 }
 
 .mypic {
   margin: 0 auto;
   width: 120px;
   height: 120px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 3px 3px 27px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 3px 3px 27px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 3px 3px 27px 0px rgba(0, 0, 0, 0.6);
 }
 
-/* Progress Bar */
-.progress {
-  position: relative;
-  height: 4px;
-  display: block;
-  width: 100%;
-  background-color: #ffffff;
-  border-radius: 2px;
-  background-clip: padding-box;
-  margin: 0.5rem 0 1rem 0;
-  overflow: hidden;
+#icons {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
 }
-.progress .determinate {
-  position: absolute;
-  background-color: inherit;
-  top: 0;
-  bottom: 0;
-  background-color: blueviolet;
-  transition: width 0.3s linear;
+
+#icons i {
+  margin: 7px;
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+#icons i:hover {
+  color: rgb(255, 255, 255) !important;
 }
 
 #footer_text_main {
@@ -92,14 +120,78 @@ body {
   width: 100%;
   text-align: center;
   font-size: 12px;
-  color: #4e4e4e;
+  color: #bebebe;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-#footer_text_mobile {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 10px;
-  color: #4e4e4e;
+@media only screen and (max-width: 1000px) {
+  #resume {
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 30px !important;
+    align-items: center;
+  }
+
+  #title {
+    display: none;
+  }
+
+  #title-mobile {
+    display: block;
+  }
+
+  .resume-right-parent {
+    display: block;
+  }
+
+  .resume-right {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  .resume-right-child {
+    padding: 25px;
+    padding-top: 0px;
+  }
+
+  .resume-left {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+  }
+
+  .resume-left-child {
+  }
+
+  .mypic {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 3px 3px 27px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 3px 3px 27px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 3px 3px 27px 0px rgba(0, 0, 0, 0.6);
+  }
+
+  #icons {
+    display: block;
+  }
+
+  #footer_text_main {
+    position: relative;
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  #footer_text_main {
+    position: relative;
+  }
 }

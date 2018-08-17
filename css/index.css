@@ -36,14 +36,22 @@ body {
   color: #4e4e4e;
 }
 
-#snake_div {
-  margin-top: 30px;
-  display: none;
+#main_icons {
+  margin-top: 15px;
+  font-size: 35px;
 }
 
-#_back {
-  margin-top: 2%;
-  font-family: press-start;
+#main_icons i {
+  margin: 10px;
+  color: rgb(31, 31, 31, 0.6) !important;
+}
+
+#main_icons i:hover {
+  color: rgb(31, 31, 31, 1) !important;
+}
+
+#snake_div {
+  margin-top: 30px;
   display: none;
 }
 
@@ -51,6 +59,10 @@ body {
   margin-top: 20px;
   font-family: press-start;
   display: none;
+}
+
+.snake-launch:hover {
+  cursor: pointer;
 }
 
 #footer_text_main {
@@ -69,6 +81,19 @@ body {
   text-align: center;
   font-size: 10px;
   color: #4e4e4e;
+}
+
+#footer_text_snake {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+.snake-close:hover {
+  cursor: pointer;
 }
 
 #counter_div {

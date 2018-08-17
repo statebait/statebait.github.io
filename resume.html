@@ -7,7 +7,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117988878-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-117988878-1');
@@ -17,12 +20,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <!-- Compiled and minified Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
 
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -37,97 +43,144 @@
 <body>
 
     <!-- Resume -->
-    <div id="resume" class="shadow-lg animated zoomInRight">
-        <div class="resume-right">
-            <div class="resume-right-child">
-
-                <div id="skills">
-                    <h3>Skills</h3>
-                    <div>
-                        <span>ReactJS</span>
-                        <div class="progress progress-resume" style="width: 300px; background-color: white;">
-                            <div class="determinate determinate-resume" style="width: 80%;"></div>
-                        </div>
+    <div id="resume" class="z-depth-5 animated zoomInRight">
+        <div id="title-mobile">
+            <h2 style="margin-top: 15px;">Resume</h2>
+        </div>
+        <div class="resume-left">
+            <div class="resume-left-child center">
+                <img src="/assets/images/mainpic2.png" class="circle mypic">
+                <div style="margin: 0 auto;">
+                    <span style="font-size: 20px;" class="center">Mohamed Shadab</span>
+                    <br>
+                    <span style="font-family: lato-light; font-size: 15px;" class="text-center">Software Engineer</span>
+                    <div id="icons">
+                        <a href="https://github.com/shadxx7" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/ShadXx7" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohamed-shadab-46b513125" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:mohamedshadab78@gmail.com" target="_top">
+                            <i class="fas fa-envelope-open"></i>
+                        </a>
                     </div>
-                    <div>
-                        <span>NodeJS/Express</span>
-                        <div class="progress progress-resume" style="width: 300px; background-color: white;">
-                            <div class="determinate determinate-resume" style="width: 50%;"></div>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <span>MongoDB/Mongoose</span>
-                            <div class="progress progress-resume" style="width: 300px; background-color: white;">
-                                <div class="determinate determinate-resume" style="width: 70%;"></div>
-                            </div>
-                        </div>
-                        <span>ElectronJS</span>
-                        <div class="progress progress-resume" style="width: 300px; background-color: white;">
-                            <div class="determinate determinate-resume" style="width: 50%;"></div>
-                        </div>
-                    </div>
+                    <br>
                 </div>
-                <br>
-                <div id="languages">
-                    <h3>Languages</h3>
-                    <div>
-                        <span>JavaScript(ES6)</span>
-                        <div class="progress progress-resume" style="width: 300px; background-color: white;">
-                            <div class="determinate determinate-resume" style="width: 80%;"></div>
-                        </div>
-                    </div>
-                    <div>
-                        <span>HTML5/CSS3</span>
-                        <div class="progress progress-resume" style="width: 300px; background-color: white;">
-                            <div class="determinate determinate-resume" style="width: 90%;"></div>
-                        </div>
-                    </div>
-                    <div>
-                        <span>JavaScript(ES6)</span>
-                        <div class="progress progress-resume" style="width: 300px; background-color: white;">
-                            <div class="determinate determinate-resume" style="width: 80%;"></div>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <div id="projects">
-                    <h3>Projects</h3>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio dolores id doloribus perspiciatis quibusdam fugit
-                    itaque quos, adipisci minima iusto autem nam mollitia maxime officiis rem, corporis similique optio!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex consectetur reprehenderit officiis sequi!
-                    Molestiae, repudiandae. Veritatis ullam alias excepturi et tempore optio fugiat nihil pariatur quibusdam
-                    libero iure, corporis perferendis.
-                </div>
-
             </div>
         </div>
 
-        <div class="resume-left">
-            <img src="/assets/images/mypic.jpg" class="rounded-circle mypic shadow-lg">
-            <div class="mx-auto">
-                <div>Mohamed Shadab</div>
-                <button type="button" class="btn btn-outline-primary">Download</button>
+        <div class="resume-right-parent">
+            <div id="title">
+                <h4 style="margin-top: 15px;">Resume</h4>
+            </div>
+            <div class="resume-right">
+                <div class="resume-right-child">
+                    <div id="about">
+                        <h5>About</h5>
+                        <p>A Computer Science Engineering Student. An Expert in Front-End Web Architechture. Open-Source
+                            Enthusiast. Learner.
+                        </p>
+                    </div>
+                    <br>
+                    <div id="education">
+                        <h5>Education</h5>
+                        <p>- Middle School Graduate - CBSE</p>
+                        <p>- High School Graduate - CBSE</p>
+                        <p>- Bachelors in Information & Communication Technology from DA-IICT</p>
+                    </div>
+                    <br>
+                    <div id="skills">
+                        <h5>Skills</h5>
+                        <br>
+                        <div>
+                            <span>ReactJS <i class="fab fa-react"></i></span>
+                            <div class="progress progress-resume" style="width: 300px; background-color: white;">
+                                <div class="determinate determinate-resume" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <span>NodeJS/Express</span>
+                            <div class="progress progress-resume" style="width: 300px; background-color: white;">
+                                <div class="determinate determinate-resume" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <span>MongoDB/Mongoose</span>
+                                <div class="progress progress-resume" style="width: 300px; background-color: white;">
+                                    <div class="determinate determinate-resume" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <span>ElectronJS</span>
+                            <div class="progress progress-resume" style="width: 300px; background-color: white;">
+                                <div class="determinate determinate-resume" style="width: 50%;"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <div id="languages">
+                        <h5>Languages</h5>
+                        <br>
+                        <div>
+                            <span>JavaScript(ES6)</span>
+                            <div class="progress progress-resume" style="width: 300px; background-color: white;">
+                                <div class="determinate determinate-resume" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <span>HTML5/CSS3</span>
+                            <div class="progress progress-resume" style="width: 300px; background-color: white;">
+                                <div class="determinate determinate-resume" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <span>Python</span>
+                            <div class="progress progress-resume" style="width: 300px; background-color: white;">
+                                <div class="determinate determinate-resume" style="width: 40%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <span>C/C++</span>
+                            <div class="progress progress-resume" style="width: 300px; background-color: white;">
+                                <div class="determinate determinate-resume" style="width: 40%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="experience">
+                        <h5>Experience</h5>
+                        <p>Simplr Online - Web Intern 15th June to 15th July 2018</p>
+                        <p>Simplr Online - Remote Front-End Engineer (Current)</p>
+                    </div>
+                    <br>
+                    <div id="projects">
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- Footer for main page -->
-    <footer class="hide-on-med-and-down" id="footer_text_main">
-        <p>Click the image |
+    <!-- Footer for Resume -->
+    <footer id="footer_text_main">
+        <div style="font-family: lato;"><a href="./index.html" style="color: #bebebe !important;">Home</a> |
             <a target="_blank" href="https://github.com/shadxx7/shadxx7.github.io/blob/master/LICENSE.md">MIT License
-            </a> | Copyright (c) 2018 Mohamed Shadab</p>
+            </a> | Copyright (c) 2018 Mohamed Shadab
+        </div>
     </footer>
 
-    <!-- Footer for main page for small screens -->
-    <footer class="hide-on-large-only" id="footer_text_mobile">
-        <p>
-            <a target="_blank" href="https://github.com/shadxx7/shadxx7.github.io/blob/master/LICENSE.md">MIT License
-            </a> | Copyright (c) 2018 Mohamed Shadab</p>
-    </footer>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
 
     <!-- Local JS -->
-    <script src="js/resume.js"></script>
+    <script src="./js/resume.js"></script>
+
 
 </body>
 
