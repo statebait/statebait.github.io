@@ -1,11 +1,6 @@
 /* Resume */
 
 @font-face {
-  font-family: lato;
-  src: url(/assets/fonts/Lato-Black.ttf);
-}
-
-@font-face {
   font-family: lato-light;
   src: url(/assets/fonts/Lato-Light.ttf);
 }
@@ -16,7 +11,8 @@ body {
   font-family: "lato", sans-serif;
 }
 
-p {
+p,
+ul {
   font-family: "lato-light", sans-serif;
   font-size: 16px;
 }
@@ -49,6 +45,10 @@ p {
 .resume-right-parent {
   display: flex;
   flex-direction: column;
+}
+
+.date-range {
+  float: right;
 }
 
 .resume-right {
@@ -157,6 +157,11 @@ p {
   .resume-right-child {
     padding: 25px;
     padding-top: 0px;
+  }
+
+  .date-range {
+    float: none;
+    margin-left: 10px;
   }
 
   .resume-left {

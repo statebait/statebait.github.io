@@ -3,16 +3,6 @@
   src: url(/assets/fonts/press-start.ttf);
 }
 
-@font-face {
-  font-family: lato;
-  src: url(/assets/fonts/Lato-Black.ttf);
-}
-
-@font-face {
-  font-family: lato-italic;
-  src: url(/assets/fonts/Lato-BlackItalic.ttf);
-}
-
 body {
   font-family: "lato", sans-serif;
   background-color: #f8f9fa;
@@ -43,11 +33,11 @@ body {
 
 #main_icons i {
   margin: 10px;
-  color: rgb(31, 31, 31, 0.6) !important;
+  color: rgba(31, 31, 31, 0.6) !important;
 }
 
 #main_icons i:hover {
-  color: rgb(31, 31, 31, 1) !important;
+  color: rgba(31, 31, 31, 1) !important;
 }
 
 #snake_div {
@@ -57,7 +47,7 @@ body {
 
 #press {
   margin-top: 20px;
-  font-family: press-start;
+  font-family: press-start, sans-serif;
   display: none;
 }
 
