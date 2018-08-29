@@ -1,19 +1,11 @@
 /* Resume */
-
-@font-face {
-  font-family: lato-light;
-  src: url(/assets/fonts/Lato-Light.ttf);
-}
-
 body {
   background-color: #001e4b;
   background-image: url("../assets/images/resume-bg.svg");
-  font-family: "lato", sans-serif;
 }
 
 p,
 ul {
-  font-family: "lato-light", sans-serif;
   font-size: 16px;
 }
 
@@ -171,9 +163,6 @@ ul {
     align-items: center;
     width: auto;
     height: auto;
-  }
-
-  .resume-left-child {
   }
 
   .mypic {
