@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117988878-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-117988878-1');
+    </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
+
+    <!-- Compiled and minified Materilize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="./css/snake.css">
+
+    <title>Mohamed Shadab</title>
+
+</head>
+
+<body>
+
+    <!-- Score -->
+    <div class="animated zoomIn center" id="counter_div">
+        <h5 id="counter">SCORE: </h5>
+    </div>
+
+    <!-- Canvas for the snake game -->
+    <div class="center animated slideInDown" id="snake_div">
+        <canvas class="z-depth-5" id="gc" width="400" height="400"></canvas>
+    </div>
+
+    <!-- Press Info -->
+    <div class="animated slideInRight center" id="press">
+        <h6>PRESS
+            <img style="margin-top: 10px; width: 60px; height: 40px;" src="assets/images/arrow-keys.png"> TO START</h6>
+    </div>
+
+    <!-- Footer for snake game -->
+    <footer id="footer_text_snake">
+        <p><a style="color: black;" href="/">Home</a> |
+            <a target="_blank" href="https://github.com/shadxx7/shadxx7.github.io/blob/master/LICENSE.md">MIT License
+            </a> | Copyright (c) 2018 Mohamed Shadab</p>
+    </footer>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <!-- Materialise JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+    <!-- Local JS -->
+    <script src="js/snake.js"></script>
+
+</body>
+
+</html>
