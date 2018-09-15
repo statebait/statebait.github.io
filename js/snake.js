@@ -2,7 +2,7 @@
 
 //The Score tracker
 var counter = 0;
-$("#counter").html(`SCORE: ${counter}`);
+document.getElementById("counter").innerHTML = `SCORE: ${counter}`;
 
 window.onload = function() {
   canv = document.getElementById("gc");
@@ -41,7 +41,7 @@ function game() {
     if (trail[i].x == px && trail[i].y == py) {
       tail = 5;
       counter = 0;
-      $("#counter").html(`SCORE: ${counter}`);
+      document.getElementById("counter").innerHTML = `SCORE: ${counter}`;
     }
   }
   trail.push({ x: px, y: py });
@@ -51,7 +51,7 @@ function game() {
 
   if (ax == px && ay == py) {
     counter++;
-    $("#counter").html(`SCORE: ${counter}`);
+    document.getElementById("counter").innerHTML = `SCORE: ${counter}`;
     tail++;
     ax = Math.floor(Math.random() * tc);
     ay = Math.floor(Math.random() * tc);

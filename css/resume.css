@@ -57,15 +57,6 @@ ul {
   padding-top: 20px;
 }
 
-.progress-resume {
-  width: 300px;
-  background-color: white !important;
-}
-
-.determinate-resume {
-  background-color: blueviolet !important;
-}
-
 .resume-left {
   background-color: #172f53;
   display: flex;
