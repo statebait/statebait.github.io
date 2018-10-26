@@ -12,12 +12,11 @@ ul {
 #resume {
   display: flex !important;
   margin: 0 auto;
-  width: 1000px;
-  height: 550px;
+  width: 65%;
   background-color: #112544;
   background-image: none;
   color: rgb(255, 255, 255);
-  margin-top: 50px !important;
+  margin-top: 5% !important;
   border-radius: 20px;
 }
 
@@ -45,8 +44,7 @@ ul {
 
 .resume-right {
   display: flex;
-  width: 750px;
-  height: 550px;
+  height: 30vmax;
   overflow: hidden;
 }
 
@@ -60,8 +58,7 @@ ul {
 .resume-left {
   background-color: #172f53;
   display: flex;
-  width: 250px;
-  height: 550px;
+  width: 300px;
   flex-direction: column;
   border-right: 20px;
 }
@@ -108,7 +105,7 @@ ul {
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1300px) {
   #resume {
     flex-direction: column;
     width: auto;
