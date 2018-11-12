@@ -1,95 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-117988878-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-117988878-1");
+    </script>
 
-<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117988878-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/images/favicon.png"
+    />
 
-    gtag('config', 'UA-117988878-1');
-  </script>
+    <!-- Compiled and minified Materilize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
 
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
 
-  <!-- Compiled and minified Materilize CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="./css/index.css" />
 
-  <!-- FontAwesome Icons -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
+    <title>Mohamed Shadab</title>
+  </head>
 
-  <!-- Animate CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <body>
+    <!-- Main Picture -->
+    <div class="center animated zoomInUp">
+      <img
+        id="main_image"
+        src="assets/images/mainpic.png"
+        class="circle z-depth-5"
+      />
+    </div>
 
-  <!-- Local CSS -->
-  <link rel="stylesheet" href="./css/index.css">
+    <!-- Name and info -->
+    <div id="main_text" class="animated zoomIn center">
+      <h3 id="name">Mohamed Shadab</h3>
+      <span style="font-size: 20px;">
+        <i class="fas fa-heart"></i>
+        <span style="margin-left: 5px;">JavaScript, Open Source</span>
+      </span>
+    </div>
 
-  <title>Mohamed Shadab</title>
+    <!-- Icons -->
+    <div id="main_icons" class="container center animated zoomIn">
+      <a
+        href="https://github.com/shadxx7"
+        target="_blank"
+        data-tooltip="Github"
+        data-position="bottom"
+        class="tooltipped"
+      >
+        <i class="fab fa-github"></i>
+      </a>
+      <a
+        href="https://twitter.com/ShadXx7"
+        target="_blank"
+        data-tooltip="Twitter"
+        data-position="bottom"
+        class="tooltipped"
+      >
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/mohamed-shadab-46b513125"
+        target="_blank"
+        data-tooltip="LinkedIn"
+        data-position="bottom"
+        class="tooltipped"
+      >
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a
+        href="./resume.html"
+        data-tooltip="Resume"
+        data-position="bottom"
+        class="tooltipped"
+      >
+        <i class="fas fa-file-alt"></i>
+      </a>
+    </div>
 
-</head>
+    <!-- Footer for main page -->
+    <footer class="hide-on-med-and-down" id="footer_text_main">
+      <p>
+        <a href="/snake.html" style="color: #4e4e4e;">Snake Game</a> |
+        <a
+          target="_blank"
+          href="https://github.com/shadxx7/shadxx7.github.io/blob/master/LICENSE.md"
+          >MIT License
+        </a>
+        | Copyright (c) 2018 Mohamed Shadab
+      </p>
+    </footer>
 
-<body>
+    <!-- Footer for main page for small screens -->
+    <footer class="hide-on-large-only" id="footer_text_mobile">
+      <p>
+        <a
+          target="_blank"
+          href="https://github.com/shadxx7/shadxx7.github.io/blob/master/LICENSE.md"
+          >MIT License
+        </a>
+        | Copyright (c) 2018 Mohamed Shadab
+      </p>
+    </footer>
 
-  <!-- Main Picture  -->
-  <div class="center animated zoomInUp">
-    <img id="main_image" src="assets/images/mainpic.png" class="circle z-depth-5">
-  </div>
+    <!-- Compiled and minified Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-  <!-- Name and info -->
-  <div id="main_text" class="animated zoomIn center">
-    <h3 id="name">Mohamed Shadab</h3>
-    <span style="font-size: 20px;">
-      <i class="fas fa-heart"></i>
-      <span style="margin-left: 5px;">JavaScript, Open Source</span>
-    </span>
-  </div>
-
-  <!-- Icons -->
-  <div id="main_icons" class="container center animated zoomIn">
-    <a href="https://github.com/shadxx7" target="_blank" data-tooltip="Github" data-position="bottom" class="tooltipped">
-      <i class="fab fa-github"></i>
-    </a>
-    <a href="https://twitter.com/ShadXx7" target="_blank" data-tooltip="Twitter" data-position="bottom" class="tooltipped">
-      <i class="fab fa-twitter"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/mohamed-shadab-46b513125" target="_blank" data-tooltip="LinkedIn"
-      data-position="bottom" class="tooltipped">
-      <i class="fab fa-linkedin-in"></i>
-    </a>
-    <a href="./resume.html" data-tooltip="Resume" data-position="bottom" class="tooltipped">
-      <i class="fas fa-file-alt"></i>
-    </a>
-  </div>
-
-  <!-- Footer for main page -->
-  <footer class="hide-on-med-and-down" id="footer_text_main">
-    <p><a href="/snake.html" style="color: #4e4e4e;">Snake Game</a> |
-      <a target="_blank" href="https://github.com/shadxx7/shadxx7.github.io/blob/master/LICENSE.md">MIT License
-      </a> | Copyright (c) 2018 Mohamed Shadab</p>
-  </footer>
-
-  <!-- Footer for main page for small screens -->
-  <footer class="hide-on-large-only" id="footer_text_mobile">
-    <p>
-      <a target="_blank" href="https://github.com/shadxx7/shadxx7.github.io/blob/master/LICENSE.md">MIT License
-      </a> | Copyright (c) 2018 Mohamed Shadab</p>
-  </footer>
-
-  <!-- Compiled and minified Materialize JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-  <!-- Local JS -->
-  <script src="js/index.js"></script>
-
-</body>
-
+    <!-- Local JS -->
+    <script src="js/index.js"></script>
+  </body>
 </html>
