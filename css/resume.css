@@ -58,7 +58,7 @@ ul {
 .resume-left {
   background-color: #172f53;
   display: flex;
-  width: 300px;
+  width: 750px;
   flex-direction: column;
   border-right: 20px;
 }
