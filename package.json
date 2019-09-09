@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Mohamed Shadab",
   "license": "MIT",
+  "scripts": {
+    "start": "live-server"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
@@ -12,6 +15,7 @@
   },
   "devDependencies": {
     "husky": "^3.0.0",
+    "live-server": "^1.2.1",
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1"
   }
