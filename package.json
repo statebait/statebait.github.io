@@ -6,7 +6,8 @@
   "author": "Mohamed Shadab",
   "license": "MIT",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "serve:lhci": "live-server"
   },
   "husky": {
     "hooks": {
