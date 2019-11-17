@@ -1,9 +1,9 @@
 language: node_js
-node_js:
-  - 12
+addons:
+  chrome: stable
 before_install:
   - npm install -g @lhci/cli@0.3.x
 script:
-  - lhci autorun
-addons:
-  chrome: stable
+  - npm install
+after_success:
+  - lhci autorun --upload.target=temporary-public-storage
