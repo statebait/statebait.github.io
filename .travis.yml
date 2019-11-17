@@ -4,8 +4,9 @@ node_js:
 addons:
   chrome: stable
 before_install:
-  - npm install -g @lhci/cli@0.3.x
+  - yarn add global @lhci/cli@0.3.x
 script:
-  - npm install
+  - yarn
 after_success:
   - lhci autorun --upload.target=temporary-public-storage
+  - lhci upload
