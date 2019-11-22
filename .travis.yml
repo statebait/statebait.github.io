@@ -5,8 +5,6 @@ addons:
   chrome: stable
 before_install:
   - yarn add global @lhci/cli@0.3.x
-script:
-  - yarn
 after_success:
-  - lhci autorun --upload.target=temporary-public-storage
+  - lhci autorun
   - lhci upload
