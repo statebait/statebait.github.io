@@ -2,12 +2,12 @@
   "name": "statebait.github.io",
   "version": "1.1.1",
   "description": "Personal Website",
-  "main": "index.js",
+  "main": "n/a",
   "author": "Mohamed Shadab",
   "license": "MIT",
   "scripts": {
     "start": "live-server",
-    "test": "echo Placeholder script"
+    "test": "echo placeholder script"
   },
   "husky": {
     "hooks": {
