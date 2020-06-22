@@ -8,6 +8,8 @@ body {
   width: 200px;
   height: 200px;
   margin-top: 100px;
+  opacity: 0.8;
+  border: 7px solid rgb(210, 210, 210);
 }
 
 #main_text {
