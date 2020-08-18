@@ -10,8 +10,8 @@
         "offscreen-images": "off",
         "uses-webp-images": "off",
         "redirects-http": ["warn", { "minScore": 0 }],
-        "render-blocking-resources": ["warn", { "maxLength": 1 }],
-        "uses-http2": ["warn", { "minScore": 0 }],
+        "render-blocking-resources": "off",
+        "uses-http2": "off",
         "unused-css-rules": ["warn"],
         "font-display": "off"
       }
