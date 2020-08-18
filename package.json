@@ -5,7 +5,7 @@
   "author": "Mohamed Shadab",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf dist && parcel build src/index.html",
+    "build": "rimraf dist && parcel build src/index.html && cpy CNAME dist/",
     "lhci": "yarn build && lhci autorun",
     "start": "parcel serve src/index.html"
   },
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@lhci/cli": "^0.4.4",
+    "cpy-cli": "^3.1.1",
     "husky": "^4.0.6",
     "parcel": "^2.0.0-beta.1",
     "prettier": "^2.0.2",
