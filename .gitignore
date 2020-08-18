@@ -71,3 +71,9 @@ typings/
 
 # lighthouse ci results
 .lighthouseci
+
+# parcel cache
+.parcel-cache
+
+# dist
+dist

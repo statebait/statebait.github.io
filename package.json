@@ -1,13 +1,14 @@
 {
   "name": "statebait.github.io",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "Personal Website",
-  "main": "n/a",
   "author": "Mohamed Shadab",
   "license": "MIT",
   "scripts": {
-    "start": "live-server",
-    "test": "echo placeholder script"
+    "build": "rimraf dist && parcel build src/index.html",
+    "start": "parcel serve src/index.html",
+    "test": "echo placeholder script",
+    "lhci": "yarn build && lhci autorun"
   },
   "husky": {
     "hooks": {
@@ -15,13 +16,11 @@
     }
   },
   "devDependencies": {
-    "husky": "^4.0.6",
-    "live-server": "^1.2.1",
-    "prettier": "^2.0.2",
-    "pretty-quick": "^2.0.0"
-  },
-  "dependencies": {
     "@lhci/cli": "^0.4.4",
-    "global": "^4.4.0"
+    "husky": "^4.0.6",
+    "parcel": "^2.0.0-beta.1",
+    "prettier": "^2.0.2",
+    "pretty-quick": "^2.0.0",
+    "rimraf": "^3.0.2"
   }
 }

@@ -2,7 +2,7 @@
   "ci": {
     "collect": {
       "numberOfRuns": 3,
-      "staticDistDir": "./"
+      "staticDistDir": "./dist"
     },
     "assert": {
       "preset": "lighthouse:no-pwa",
