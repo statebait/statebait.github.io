@@ -6,9 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "rimraf dist && parcel build src/index.html",
-    "start": "parcel serve src/index.html",
-    "test": "echo placeholder script",
-    "lhci": "yarn build && lhci autorun"
+    "lhci": "yarn build && lhci autorun",
+    "start": "parcel serve src/index.html"
   },
   "husky": {
     "hooks": {

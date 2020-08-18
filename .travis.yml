@@ -5,8 +5,8 @@ addons:
   chrome: stable
 script:
   - yarn build
-  - lhci autorun
 after_success:
+  - lhci autorun
   - lhci upload
 deploy:
   provider: pages

@@ -16,7 +16,8 @@
         "font-display": "off",
         "unused-javascript": ["warn", { "maxLength": 0 }],
         "uses-rel-preconnect": ["warn", { "maxLength": 0 }],
-        "uses-responsive-images": ["warn", { "maxLength": 0 }]
+        "uses-responsive-images": ["warn", { "maxLength": 0 }],
+        "unminified-javascript": ["warn", { "maxLength": 0 }]
       }
     },
     "upload": {
