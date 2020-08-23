@@ -2,7 +2,7 @@
   "ci": {
     "collect": {
       "numberOfRuns": 3,
-      "staticDistDir": "./dist"
+      "staticDistDir": "./public"
     },
     "assert": {
       "preset": "lighthouse:no-pwa",
@@ -13,7 +13,6 @@
         "render-blocking-resources": ["warn", { "maxLength": 1 }],
         "uses-http2": ["warn", { "minScore": 0 }],
         "unused-css-rules": ["warn"],
-        "font-display": "off",
         "unused-javascript": ["warn", { "maxLength": 0 }],
         "uses-rel-preconnect": ["warn", { "maxLength": 0 }],
         "uses-responsive-images": ["warn", { "maxLength": 0 }],
