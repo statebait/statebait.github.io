@@ -15,6 +15,6 @@
       aria-label="License link">
       MIT License
     </a>
-    | Copyright (c) 2019 Mohamed Shadab
+    | Copyright (c) {new Date().getFullYear()} Mohamed Shadab
   </p>
 </footer>
