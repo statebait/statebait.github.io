@@ -7,73 +7,34 @@
   import FaDev from "svelte-icons/fa/FaDev.svelte";
   import FaHatWizard from "svelte-icons/fa/FaHatWizard.svelte";
   import FaFileAlt from "svelte-icons/fa/FaFileAlt.svelte";
+  import Link from "./Link.svelte";
 </script>
 
 <div
   class="container mx-auto text-primary flex space-x-8 justify-center mt-6
   flex-wrap">
-  <a
-    href="https://github.com/statebait"
-    target="_blank"
-    rel="noopener"
-    class="w-8 h-8 block m-3"
-    aria-label="GitHub profile link">
+  <Link href="https://github.com/statebait" name="GitHub">
     <FaGithub />
-  </a>
-  <a
-    href="https://twitter.com/statebait"
-    target="_blank"
-    rel="noopener"
-    class="w-8 h-8 block m-3"
-    aria-label="Twitter profile link">
+  </Link>
+  <Link href="https://twitter.com/statebait" name="Twitter">
     <FaTwitter />
-  </a>
-  <a
-    href="https://www.linkedin.com/in/mohamedshadab/"
-    target="_blank"
-    rel="noopener"
-    class="w-8 h-8 block m-3"
-    aria-label="LinkedIn profile link">
+  </Link>
+  <Link href="https://www.linkedin.com/in/mohamedshadab/" name="LinkedIn">
     <FaLinkedinIn />
-  </a>
-  <a
-    href="https://medium.com/@mohamedshadab78"
-    target="_blank"
-    rel="noopener"
-    class="w-8 h-8 block m-3"
-    aria-label="Medium profile link">
+  </Link>
+  <Link href="https://medium.com/@mohamedshadab78" name="Medium">
     <FaMediumM />
-  </a>
-  <a
-    href="/blog"
-    target="_blank"
-    rel="noopener"
-    class="w-8 h-8 block m-3"
-    aria-label="Blog link">
+  </Link>
+  <Link href="/blog" name="Blog">
     <FaBlog />
-  </a>
-  <a
-    href="https://dev.to/statebait"
-    target="_blank"
-    rel="noopener"
-    class="w-8 h-8 block m-3"
-    aria-label="dev.to link">
+  </Link>
+  <Link href="https://dev.to/statebait" name="dev.to">
     <FaDev />
-  </a>
-  <a
-    href="https://sourcerer.io/statebait"
-    target="_blank"
-    rel="noopener"
-    class="w-8 h-8 block m-3"
-    aria-label="sourcerer.io link">
+  </Link>
+  <Link href="https://sourcerer.io/statebait" name="sourcerer.io">
     <FaHatWizard />
-  </a>
-  <a
-    href="/assets/Mohamed_Shadab_Resume.pdf"
-    target="_blank"
-    rel="noopener"
-    class="w-8 h-8 block m-3"
-    aria-label="Resume download link">
+  </Link>
+  <Link href="/assets/Mohamed_Shadab_Resume.pdf" name="Resume">
     <FaFileAlt />
-  </a>
+  </Link>
 </div>
