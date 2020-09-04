@@ -7,15 +7,10 @@
     "assert": {
       "preset": "lighthouse:no-pwa",
       "assertions": {
-        "offscreen-images": "off",
-        "uses-webp-images": "off",
         "redirects-http": ["warn", { "minScore": 0 }],
         "render-blocking-resources": ["warn", { "maxLength": 1 }],
-        "uses-http2": ["warn", { "minScore": 0 }],
-        "unused-css-rules": ["warn"],
         "unused-javascript": ["warn", { "maxLength": 0 }],
-        "uses-rel-preconnect": ["warn", { "maxLength": 0 }],
-        "uses-responsive-images": ["warn", { "maxLength": 0 }],
+        "uses-rel-preconnect": "off",
         "unminified-javascript": ["warn", { "maxLength": 0 }]
       }
     },
