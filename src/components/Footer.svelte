@@ -1,5 +1,5 @@
 <!-- Footer for main page -->
-<footer class="text-primary fixed bottom-0 w-full text-center text-sm my-3">
+<footer class="text-primary w-full text-center text-sm my-10">
   <p>
     <a
       href="https://statebait.github.io/snake-game/"
@@ -14,7 +14,6 @@
       href="https://github.com/statebait/statebait.github.io/blob/master/LICENSE.md"
       aria-label="License link">
       MIT License
-    </a>
-    | Copyright (c) {new Date().getFullYear()} Mohamed Shadab
+    </a> | Copyright (c) {new Date().getFullYear()} Mohamed Shadab
   </p>
 </footer>

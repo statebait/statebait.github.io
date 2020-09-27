@@ -7,7 +7,7 @@
   {href}
   target="_blank"
   rel="noopener"
-  class="w-8 h-8 block m-3 tooltip"
+  class="w-8 h-8 block m-3 tooltip hover:text-white"
   aria-label={`${name} link`}>
   <slot />
   <div class="tooltiptext">{name}</div>
