@@ -5,11 +5,17 @@
   import MdWeb from "svelte-icons/md/MdWeb.svelte";
 </script>
 
-<div class="flex flex-col items-center mt-24 h-screen">
+<style>
+  .projects-view {
+    height: 80vh;
+  }
+</style>
+
+<div class="flex flex-col items-center mt-24 projects-view">
   <h1 class="text-3xl sm:text-4xl montserrat text-bold text-primary mt-5">
     Projects
   </h1>
-  <div class="grid mt-10 gap-8 lg:grid-cols-2">
+  <div class="grid mt-10 gap-8 xl:grid-cols-2">
     <ProjectCard
       name="Darkrai"
       description="Darkrai is a browser extension that enables you to chat with the people visiting the same website."

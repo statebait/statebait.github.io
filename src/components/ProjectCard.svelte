@@ -7,13 +7,13 @@
 
 <style>
   .card {
-    width: 500px;
+    max-width: 500px;
   }
 </style>
 
 <a
-  class="card text-primary border-primary flex rounded-lg border-2 bg-black
-    space-x-4 p-5 border-opacity-25 hover:border-white hover:text-white"
+  class="card text-primary border-primary flex rounded-lg border-2 bg-black bg-opacity-25
+    space-x-4 p-5 border-opacity-25 hover:border-white hover:text-white mx-3"
   target="_blank"
   rel="noopener"
   aria-label={airaLabel}

@@ -6,7 +6,7 @@
 
   function handleClick() {
     window.scrollTo({
-      top: window.innerHeight,
+      top: window.innerHeight + 100,
       behavior: "smooth",
     });
   }
