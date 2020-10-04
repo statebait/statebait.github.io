@@ -1,5 +1,9 @@
 module.exports = {
-  purge: ["./src/**/*.svelte"],
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+  },
+  purge: { content: ["./src/**/*.svelte"] },
   theme: {
     extend: {
       textColor: {

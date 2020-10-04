@@ -11,7 +11,8 @@
         "render-blocking-resources": ["warn", { "maxLength": 1 }],
         "unused-javascript": ["warn", { "maxLength": 0 }],
         "uses-rel-preconnect": "off",
-        "unminified-javascript": ["warn", { "maxLength": 0 }]
+        "unminified-javascript": ["warn", { "maxLength": 0 }],
+        "uses-responsive-images": "off"
       }
     },
     "upload": {

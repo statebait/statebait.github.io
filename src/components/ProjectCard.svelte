@@ -8,12 +8,21 @@
 <style>
   .card {
     max-width: 500px;
+    background-color: #1f1f1f;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .card:hover {
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   }
 </style>
 
 <a
-  class="card text-primary border-primary flex rounded-lg border-2 bg-black bg-opacity-25
-    space-x-4 p-5 border-opacity-25 hover:border-white hover:text-white mx-3"
+  class="card text-primary flex rounded-lg space-x-4 p-5 mx-3"
   target="_blank"
   rel="noopener"
   aria-label={airaLabel}
