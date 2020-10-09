@@ -12,7 +12,7 @@
 </style>
 
 <div class="flex flex-col items-center mt-24 projects-view">
-  <h1 class="text-3xl sm:text-4xl montserrat text-bold text-primary mt-5">
+  <h1 class="text-3xl sm:text-4xl montserrat text-bold text-white mt-5">
     Projects
   </h1>
   <div class="grid mt-10 gap-8 xl:grid-cols-2">

@@ -1,5 +1,5 @@
 <!-- Footer for main page -->
-<footer class="text-primary w-full text-center text-sm my-10">
+<footer class="text-white w-full text-center text-sm my-10">
   <p>
     <a
       href="https://statebait.github.io/snake-game/"

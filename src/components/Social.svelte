@@ -11,7 +11,7 @@
 </script>
 
 <div
-  class="container mx-auto text-primary flex space-x-8 justify-center mt-6
+  class="container mx-auto text-white flex space-x-8 justify-center mt-6
   flex-wrap">
   <Link href="https://github.com/statebait" name="GitHub">
     <FaGithub />

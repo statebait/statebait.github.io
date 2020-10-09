@@ -22,7 +22,7 @@
 </style>
 
 <a
-  class="card text-primary flex rounded-lg space-x-4 p-5 mx-3"
+  class="card text-white flex rounded-lg space-x-4 p-5 mx-3"
   target="_blank"
   rel="noopener"
   aria-label={airaLabel}
