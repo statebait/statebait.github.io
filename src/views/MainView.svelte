@@ -17,7 +17,7 @@
   <Name />
   <Social />
   <div
-    class="mt-16 w-8 h-8 text-white animate-bounce cursor-pointer"
+    class="mt-16 w-8 h-8 text-white cursor-pointer animate__animated animate__fadeInUp"
     on:click={handleClick}>
     <FaChevronDown />
   </div>

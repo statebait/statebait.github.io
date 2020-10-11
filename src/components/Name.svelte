@@ -2,7 +2,7 @@
   import FaRocket from "svelte-icons/fa/FaRocket.svelte";
 </script>
 
-<div class="text-center">
+<div class="text-center animate__animated animate__fadeInDown">
   <h1
     class="text-3xl sm:text-4xl montserrat font-effect-anaglyph text-bold
       text-white mt-5">

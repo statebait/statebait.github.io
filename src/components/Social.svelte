@@ -12,7 +12,7 @@
 
 <div
   class="container mx-auto text-white flex space-x-8 justify-center mt-6
-  flex-wrap">
+  flex-wrap animate__animated animate__fadeInUp">
   <Link href="https://github.com/statebait" name="GitHub">
     <FaGithub />
   </Link>
