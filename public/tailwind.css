@@ -95,6 +95,7 @@ body {
 }
 
 /* Tooltip CSS */
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -128,4 +129,12 @@ body {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+/* Custom Shadow */
+
+.custom-shadow {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
