@@ -5,12 +5,6 @@
   import MdWeb from "svelte-icons/md/MdWeb.svelte";
 </script>
 
-<style>
-  .projects-view {
-    height: 80vh;
-  }
-</style>
-
 <div class="flex flex-col items-center mt-24 projects-view">
   <h1 class="text-3xl sm:text-4xl montserrat text-bold text-white mt-5">
     Projects
@@ -19,7 +13,8 @@
     <ProjectCard
       name="Darkrai"
       description="Darkrai is a browser extension that enables you to chat with the people visiting the same website."
-      link="https://github.com/darkraichat">
+      link="https://github.com/darkraichat"
+    >
       <div class="w-16">
         <GiStack />
       </div>
@@ -27,18 +22,17 @@
     <ProjectCard
       name="Bio-modelling Web App"
       description="A Web Pipeline for visualizing and simulating kinetic(ODE-based) biological models."
-      link="https://github.com/HelikarLab/ode-app">
+      link="https://github.com/HelikarLab/ode-app"
+    >
       <div class="w-16">
         <FaBiohazard />
       </div>
     </ProjectCard>
-    <ProjectCard
-      name="Al Gafry Consulting Website"
-      description="A blazing fast project display website for Al Gafry Consulting."
-      link="https://www.algafryconsulting.com/">
-      <div class="w-16">
-        <MdWeb />
-      </div>
-    </ProjectCard>
   </div>
 </div>
+
+<style>
+  .projects-view {
+    height: 80vh;
+  }
+</style>
