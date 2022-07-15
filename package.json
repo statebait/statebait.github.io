@@ -34,7 +34,7 @@
     "sirv-cli": "^1.0.14"
   },
   "dependencies": {
-    "svelte": "^3.42.4",
+    "svelte": "^3.49.0",
     "svelte-icons": "^2.1.0",
     "tailwindcss": "^2.2.9"
   }

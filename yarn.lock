@@ -2261,10 +2261,10 @@ svelte-icons@^2.1.0:
   resolved "https://registry.yarnpkg.com/svelte-icons/-/svelte-icons-2.1.0.tgz#6f2ec72f1d5c8b2de1a4b8a822c95bcb2f701aca"
   integrity sha512-rHPQjweEc9fGSnvM0/4gA3pDHwyZyYsC5KhttCZRhSMJfLttJST5Uq0B16Czhw+HQ+HbSOk8kLigMlPs7gZtfg==
 
-svelte@^3.42.4:
-  version "3.42.4"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.42.4.tgz#838ed98fa7b26fc5fffe4df0d7ba345f1c54cf4f"
-  integrity sha512-DqC0AmDdBrrbIA+Kzl3yhBb6qCn4vZOAfxye2pTnIpinLegyagC5sLI8Pe9GPlXu9VpHBXIwpDDedpMfu++epA==
+svelte@^3.49.0:
+  version "3.49.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.49.0.tgz#5baee3c672306de1070c3b7888fc2204e36a4029"
+  integrity sha512-+lmjic1pApJWDfPCpUUTc1m8azDqYCG1JN9YEngrx/hUyIcFJo6VZhj0A1Ai0wqoHcEIuQy+e9tk+4uDgdtsFA==
 
 svgo@^2.3.0:
   version "2.5.0"
